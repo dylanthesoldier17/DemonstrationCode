@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_blenderaccelerator" default="compile.module.blenderaccelerator">
+  <dirname property="module.blenderaccelerator.basedir" file="${ant.file.module_blenderaccelerator}"/>
+  
+  <property name="module.jdk.home.blenderaccelerator" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.blenderaccelerator" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.blenderaccelerator" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.blenderaccelerator" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="blenderaccelerator.output.dir" value="${module.blenderaccelerator.basedir}/out/production/BlenderAccelerator"/>
+  <property name="blenderaccelerator.testoutput.dir" value="${module.blenderaccelerator.basedir}/out/test/BlenderAccelerator"/>
+  
+  <path id="blenderaccelerator.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="blenderaccelerator.module.production.classpath">
+    <path refid="${module.jdk.classpath.blenderaccelerator}"/>
+    <path refid="library.library.classpath"/>
+  </path>
+  
+  <path id="blenderaccelerator.runtime.production.module.classpath">
+    <pathelement location="${blenderaccelerator.output.dir}"/>
+    <path refid="library.library.classpath"/>
+  </path>
+  
+  <path id="blenderaccelerator.module.classpath">
+    <path refid="${module.jdk.classpath.blenderaccelerator}"/>
+    <pathelement location="${blenderaccelerator.output.dir}"/>
+    <path refid="library.library.classpath"/>
+  </path>
+  
+  <path id="blenderaccelerator.runtime.module.classpath">
+    <pathelement location="${blenderaccelerator.testoutput.dir}"/>
+    <pathelement location="${blenderaccelerator.output.dir}"/>
+    <path refid="library.library.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.blenderaccelerator">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.blenderaccelerator">
+    <patternset refid="excluded.from.module.blenderaccelerator"/>
+  </patternset>
+  
+  <path id="blenderaccelerator.module.sourcepath">
+    <dirset dir="${module.blenderaccelerator.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.blenderaccelerator" depends="compile.module.blenderaccelerator.production,compile.module.blenderaccelerator.tests" description="Compile module BlenderAccelerator"/>
+  
+  <target name="compile.module.blenderaccelerator.production" depends="register.custom.compilers" description="Compile module BlenderAccelerator; production classes">
+    <mkdir dir="${blenderaccelerator.output.dir}"/>
+    <javac2 destdir="${blenderaccelerator.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.blenderaccelerator}/javac">
+      <compilerarg line="${compiler.args.blenderaccelerator}"/>
+      <bootclasspath refid="blenderaccelerator.module.bootclasspath"/>
+      <classpath refid="blenderaccelerator.module.production.classpath"/>
+      <src refid="blenderaccelerator.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.blenderaccelerator"/>
+    </javac2>
+    
+    <copy todir="${blenderaccelerator.output.dir}">
+      <fileset dir="${module.blenderaccelerator.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.blenderaccelerator.tests" depends="register.custom.compilers,compile.module.blenderaccelerator.production" description="compile module BlenderAccelerator; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.blenderaccelerator" description="cleanup module">
+    <delete dir="${blenderaccelerator.output.dir}"/>
+    <delete dir="${blenderaccelerator.testoutput.dir}"/>
+  </target>
+</project>

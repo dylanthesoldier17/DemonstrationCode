@@ -1,0 +1,10 @@
+﻿My idea is to make links and save the links to a list file. Like Hard and Symbolic Links:
+
+Symbolic File - mklink /d %userprofile%\desktop\Thefolder %userprofile%\desktop\Newfolder (Appears to be the same as a link file or shortcut file made in windows)
+				mklink /f (the folder to create) (The origonal folder)
+
+Symbolic Folder - mklink /d %userprofile%\desktop\Thefolder %userprofile%\desktop\Newfolder (Default is file)
+
+Hard Link File - mklink /h %userprofile%\desktop\TheFile.txt %userprofile%\desktop\NewFile.txt
+
+Mount Folder - subst X: %userprofile%\desktop\test

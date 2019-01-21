@@ -1,0 +1,24 @@
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\bin\Debug\Game Booster.exe
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\bin\Debug\Game Booster.pdb
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\bin\Debug\Game Booster.xml
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game_Booster.Form_Main.resources
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game_Booster.Resources.resources
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game Booster.exe
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game Booster.xml
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game Booster.pdb
+C:\Users\DylanTheSoldier\documents\visual studio 2010\Projects\Game Booster\obj\x86\Debug\Game_Booster.Dialog_AboutMe.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game Booster.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game Booster.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game Booster.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\bin\Debug\Game Booster.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\bin\Debug\Game Booster.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\bin\Debug\Game Booster.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game_Booster.Dialog_AboutMe.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game_Booster.Form_Main.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\Game_Booster.Resources.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Game Booster\obj\x86\Debug\GenerateResource.write.1.tlog

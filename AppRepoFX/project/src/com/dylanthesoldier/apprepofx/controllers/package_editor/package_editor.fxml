@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" fx:id="apRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="400.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.60">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Name">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Version">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Package Name">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Package URL">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Size In Bytes">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="SHA Hash">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Silent Install">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Silent Uninstall">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Website URL">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <Label text="Description">
+               <padding>
+                  <Insets top="18.0" />
+               </padding>
+            </Label>
+            <ProgressIndicator fx:id="mPI_Progress" progress="0.0">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem fx:id="mMI_Cancel" mnemonicParsing="false" text="Cancel" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </ProgressIndicator>
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <VBox prefHeight="296.0" prefWidth="298.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="mTxtName">
+               <tooltip>
+                  <Tooltip text="The name of the package. ex) Firefox Browser" />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtVersion">
+               <tooltip>
+                  <Tooltip text="The packages version number. ex) 49.0.2 Beta 5" />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtPackageName">
+               <tooltip>
+                  <Tooltip text="The name of the package. ex) Firefox Stub 49.0.2.exe" />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtPackageURL">
+               <tooltip>
+                  <Tooltip text="The URL to the File. ex) http://www.google.com/theFile.exe or file://[share]/theFile.exe" />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtSize">
+               <tooltip>
+                  <Tooltip text="The Package's Size in Bytes." />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtHash">
+               <tooltip>
+                  <Tooltip text="Enter the file's SHA1 Hash." />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtInstall">
+               <tooltip>
+                  <Tooltip text="Arguments to do a silent install." />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtUninstall">
+               <tooltip>
+                  <Tooltip text="Arguments to do a silent uninstall." />
+               </tooltip></TextField>
+            <TextField fx:id="mTxtWebsite">
+               <tooltip>
+                  <Tooltip text="The URL to the Package's Website." />
+               </tooltip></TextField>
+         </children>
+         <padding>
+            <Insets right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <TextArea fx:id="mTA_Description" layoutX="100.0" layoutY="324.0" prefHeight="53.0" prefWidth="290.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="325.0" />
+      <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="380.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Button fx:id="mBtnOkay" mnemonicParsing="false" text="Okay" />
+            <Button fx:id="mBtnCancel" mnemonicParsing="false" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</fx:root>

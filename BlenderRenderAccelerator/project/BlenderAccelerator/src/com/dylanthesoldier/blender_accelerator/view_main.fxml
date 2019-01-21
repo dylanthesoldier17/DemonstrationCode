@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="99.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dylanthesoldier.blender_accelerator.MainViewController">
+   <children>
+      <JFXButton fx:id="btnSettings" buttonType="RAISED" onMouseClicked="#handle_btn_settings_clicked" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="6.0">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="32.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/ic_settings_black_48dp_1x.png" />
+               </image></ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnBrowse" layoutX="442.0" layoutY="16.0" onMouseClicked="#handle_btn_browse_clicked" text="Browse" AnchorPane.rightAnchor="66.0" AnchorPane.topAnchor="16.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="tf_blend_file" layoutX="8.0" layoutY="18.0" maxWidth="434.0" minWidth="434.0" prefHeight="31.0" prefWidth="434.0" promptText=".blend file" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="15.0" />
+      <JFXTextField fx:id="tf_frame_start" layoutX="14.0" layoutY="49.0" promptText="Start Frame (1)" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="50.0" />
+      <JFXTextField fx:id="tf_frame_end" layoutX="165.0" layoutY="50.0" promptText="End Frame" AnchorPane.leftAnchor="165.0" AnchorPane.topAnchor="50.0" />
+      <JFXButton fx:id="btnStart" buttonType="RAISED" layoutX="316.0" layoutY="50.0" onMouseClicked="#handle_btn_play_clicked">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/ic_play_arrow_black_48dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btnConcat" buttonType="RAISED" layoutX="379.0" layoutY="50.0" onMouseClicked="#handle_btn_concat_clicked" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="50.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/ic_redo_black_48dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dylanthesoldier.blender_accelerator.ProgressViewController">
+   <children>
+      <JFXProgressBar fx:id="pbProgress" layoutX="14.0" layoutY="27.0" progress="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="27.0" />
+      <JFXButton fx:id="btnCancel" buttonType="RAISED" layoutX="259.0" layoutY="9.0" onMouseClicked="#handle_btn_cancel_clicked" ripplerFill="RED" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="9.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/ic_clear_black_48dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label fx:id="lblProgress" layoutX="218.0" layoutY="21.0" text="100/100 (100.0%)" AnchorPane.rightAnchor="59.0" AnchorPane.topAnchor="21.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

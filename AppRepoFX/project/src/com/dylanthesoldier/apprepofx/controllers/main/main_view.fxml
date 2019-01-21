@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.*?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" fx:id="apRoot" prefHeight="200.0" prefWidth="400.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.60">
+   <children>
+      <MenuBar prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="mMI_OpenDir" mnemonicParsing="false" text="Change Package Folder" visible="false" />
+                  <SeparatorMenuItem mnemonicParsing="false" visible="false" />
+                  <MenuItem fx:id="mMI_openDownloads" mnemonicParsing="false" text="View Downloads">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="D" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem fx:id="mMI_InstallFolder" mnemonicParsing="false" text="Open Installer Folder">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="I" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                  <MenuItem fx:id="mMI_PackageFolder" mnemonicParsing="false" text="Open Package Folder">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="P" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="mMI_Settings" mnemonicParsing="false" text="Settings">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="mMI_Close" mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem fx:id="mMI_Tutorial" mnemonicParsing="false" text="Tutorial" />
+                  <MenuItem fx:id="mMI_ChangeLog" mnemonicParsing="false" text="Change Log" />
+                  <MenuItem fx:id="mMI_About" mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <ListView fx:id="lvItems" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="35.0">
+         <contextMenu>
+            <ContextMenu>
+               <items>
+                <MenuItem fx:id="mMI_Add" mnemonicParsing="false" text="Add New" />
+                  <MenuItem fx:id="mMI_Edit" mnemonicParsing="false" text="Edit" />
+                  <MenuItem fx:id="mMI_Remove" mnemonicParsing="false" text="Remove" />
+                  <MenuItem fx:id="mMI_Website" mnemonicParsing="false" text="Open Website" />
+                  <Menu mnemonicParsing="false" text="Export">
+                    <items>
+                        <MenuItem fx:id="mMI_Export_File" mnemonicParsing="false" text="File" />
+                      <MenuItem fx:id="mMI_Export_Email" mnemonicParsing="false" text="Email" />
+                    </items>
+                  </Menu>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="mMI_Install" mnemonicParsing="false" text="Install" />
+                  <MenuItem fx:id="mMI_InstallSilent" mnemonicParsing="false" text="Silent Install" />
+                  <MenuItem fx:id="mMI_Download" mnemonicParsing="false" text="Download Only" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="mMI_Uninstall" mnemonicParsing="false" text="Uninstall" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="mMI_Reload" mnemonicParsing="false" text="Reload Packages" />
+               </items>
+            </ContextMenu>
+         </contextMenu>
+         <tooltip>
+            <Tooltip fx:id="mTT_ListView" text="Packages Loaded From Location: " />
+         </tooltip></ListView>
+   </children>
+</fx:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dylanthesoldier.blender_accelerator.SettingsViewController">
+   <children>
+      <JFXToggleButton fx:id="_tbRelocateProcesses" layoutX="14.0" layoutY="30.0" prefHeight="0.0" prefWidth="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="78.0" layoutY="48.0" text="Relocate other processes to dedicated CPU core(s)" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="48.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="_tF_Affinity_exe" focusColor="#77c2bb" layoutX="14.0" layoutY="83.0" maxWidth="498.0" minWidth="408.0" prefHeight="31.0" prefWidth="496.0" promptText="AffinityCtrl's Path" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="79.0" AnchorPane.topAnchor="83.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="335.0" layoutY="86.0" onMouseClicked="#handle_btn_affinity_browse" text="Browse" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="86.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="_tF_Blender_exe" focusColor="#77c2bb" layoutX="14.0" layoutY="183.0" maxWidth="498.0" minWidth="408.0" prefHeight="31.0" prefWidth="496.0" promptText="Blender's Path" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="82.0" AnchorPane.topAnchor="183.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="335.0" layoutY="186.0" onMouseClicked="#handle_btn_blender_browse" text="Browse" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="186.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="_tF_FFMPEG_exe" focusColor="#77c2bb" layoutX="14.0" layoutY="133.0" maxWidth="498.0" minWidth="408.0" prefHeight="31.0" prefWidth="496.0" promptText="FFMPEG's Path" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="82.0" AnchorPane.topAnchor="133.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="335.0" layoutY="136.0" onMouseClicked="#handle_btn_ffmpeg_browse" text="Browse" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="136.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_save" buttonType="RAISED" layoutX="360.0" layoutY="18.0" onMouseClicked="#handle_btn_settings_clicked" AnchorPane.rightAnchor="6.0" AnchorPane.topAnchor="6.0">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="32.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../res/img/ic_done_black_64dp_2x.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.exe.config
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.Resources.resources
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.vbproj.GenerateResource.Cache
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.xml
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.exe
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.pdb
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.xml
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.exe
+c:\users\dylanthesoldier\documents\visual studio 2015\Projects\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.pdb
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.exe.config
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.exe
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.pdb
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\bin\Debug\AffinityCtrl.xml
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.vbprojAssemblyReference.cache
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.Resources.resources
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.vbproj.GenerateResource.cache
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.vbproj.CoreCompileInputs.cache
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.exe
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.xml
+Z:\Projects\9_Archive_VB.NET\AffinityCtrl\AffinityCtrl\obj\Debug\AffinityCtrl.pdb

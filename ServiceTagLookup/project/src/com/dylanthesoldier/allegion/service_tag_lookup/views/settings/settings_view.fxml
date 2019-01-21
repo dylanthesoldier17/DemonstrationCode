@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="434.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="4.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="162.0" prefWidth="177.0" spacing="25.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="13.0">
+         <children>
+            <Label text="Workbook Location" />
+            <Label text="Header Row Index" />
+            <Label text="Termination Date Column Index" />
+            <Label text="Sheet Index" />
+            <Label text="Days Out" />
+         </children>
+      </VBox>
+      <VBox layoutX="188.0" prefHeight="172.0" prefWidth="183.0" spacing="16.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="188.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="mTF_WorkbookLoc" prefHeight="25.0" prefWidth="147.0" promptText="Workbook Location">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem fx:id="mMI_Browse" mnemonicParsing="false" text="Browse" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </TextField>
+            <TextField fx:id="mTF_ColumnHeaderIndex" promptText="Service Tag Column Index" />
+            <TextField fx:id="mTF_ColumnTermDate" promptText="Termination Date Column Index" />
+            <TextField fx:id="mTF_SheetNum" promptText="Sheet Number" />
+            <TextField fx:id="mTF_DateRange" promptText="Days Out" />
+         </children>
+      </VBox>
+      <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="30.0" prefWidth="600.0" spacing="8.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Button fx:id="mBtn_Okay" mnemonicParsing="false" text="Okay">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="mBtn_Cancel" mnemonicParsing="false" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</fx:root>

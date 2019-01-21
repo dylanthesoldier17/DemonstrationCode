@@ -1,0 +1,15 @@
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links_Creator.Link_Creator.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links_Creator.Resources.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\bin\Debug\Links Creator.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\bin\Debug\Links Creator.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\bin\Debug\Links Creator.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links Creator.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links Creator.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links Creator.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Links Creator\obj\x86\Debug\Links_Creator.Dialog_LinkSetup.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Links Creator\obj\x86\Debug\Links Creator.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Links Creator\obj\x86\Debug\Links Creator.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Links Creator\obj\x86\Debug\Links Creator.pdb

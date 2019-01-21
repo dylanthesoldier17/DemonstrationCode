@@ -1,0 +1,24 @@
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\bin\Debug\Services Terminator 2.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\bin\Debug\Services Terminator 2.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\bin\Debug\Services Terminator 2.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Form_Main.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Resources.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services Terminator 2.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services Terminator 2.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services Terminator 2.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Dialog_AboutMe.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services Terminator 2.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services Terminator 2.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services Terminator 2.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\bin\Debug\Services Terminator 2.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\bin\Debug\Services Terminator 2.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\bin\Debug\Services Terminator 2.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Dialog_AboutMe.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Form_Main.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\Services_Terminator_2.Resources.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Working\Services Terminator 2\obj\x86\Debug\GenerateResource.write.1.tlog

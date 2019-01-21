@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.*?>
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="251.0" prefWidth="480.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="203.0" prefWidth="480.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <children>
+            <Label fx:id="mL_ComputerDesc" text="Computer Description:" />
+            <Hyperlink fx:id="mHP_ServiceTag" text="Service Tag: " />
+            <Label fx:id="mL_Model" text="Model:" />
+            <Label fx:id="mL_User" text="User:" />
+            <Label fx:id="mL_EOL_Date" text="EOL:">
+               <contextMenu>
+                  <ContextMenu>
+                     <items>
+                        <MenuItem fx:id="mMI_EOL_ShowAllInfo" mnemonicParsing="false" text="Show All Information" />
+                     </items>
+                  </ContextMenu>
+               </contextMenu></Label>
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Button fx:id="btnDrivers" mnemonicParsing="false" text="Install Local Drivers" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0">
+         <tooltip>
+            <Tooltip text="Executes the [model/run.bat] file" />
+         </tooltip>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem fx:id="mMI_BtnDrivers_OpenFolder" mnemonicParsing="false" text="Open Folder" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </Button>
+      <Button fx:id="btnDellDetect" mnemonicParsing="false" text="Install Dell Detect Tool" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="140.0">
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem fx:id="mMI_BtnDetectTool_OpenFolder" mnemonicParsing="false" text="Open Folder" />
+              </items>
+            </ContextMenu>
+         </contextMenu></Button>
+      <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="mMI_Settings" mnemonicParsing="false" text="Settings">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+              <MenuItem fx:id="mMI_Close" mnemonicParsing="false" text="Close">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Search">
+            <items>
+                <MenuItem fx:id="mMI_Find_ServiceTag" mnemonicParsing="false" text="Find By Service Tag" />
+                  <MenuItem fx:id="mMI_Find_IP_Resolve" mnemonicParsing="false" text="Resolve IP to Hostname" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</fx:root>

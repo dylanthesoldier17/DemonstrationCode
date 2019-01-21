@@ -1,0 +1,13 @@
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\Windows_Update_Installer.Resources.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\Windows_Update_Installer.WindowsUpdateInstaller_Form.resources
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\bin\Debug\Batch Windows Update Installer.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\bin\Debug\Batch Windows Update Installer.pdb
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\bin\Debug\Batch Windows Update Installer.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\Batch Windows Update Installer.exe
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\Batch Windows Update Installer.xml
+C:\Users\DylanTheSoldier\Documents\Visual Studio 2010\Projects\Testing Code\Windows Update Installer\Windows Update Installer\obj\x86\Debug\Batch Windows Update Installer.pdb
